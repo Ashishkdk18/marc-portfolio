@@ -60,12 +60,15 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <!-- Logo -->
-                <div class="flex items-center space-x-2">
-                    <div class="w-8 h-8 bg-accent-blue rounded-lg flex items-center justify-center">
-                        <span class="text-white font-bold text-sm">M</span>
-                    </div>
-                    <span class="text-xl font-bold">MARC</span>
-                </div>
+<div class="flex items-center space-x-3">
+  <div class="bg-blue-600 p-2 rounded-full shadow-md">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0-2.28 1.72-4 4-4s4 1.72 4 4-1.72 4-4 4-4-1.72-4-4zM2 11c0-2.28 1.72-4 4-4s4 1.72 4 4-1.72 4-4 4-4-1.72-4-4z" />
+    </svg>
+  </div>
+  <span class="text-2xl font-extrabold tracking-tight text-gray-800">MARC</span>
+</div>
+
 
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center space-x-8">
